@@ -37,9 +37,11 @@ CREATE TABLE netflix
 
 
 ### 1. Count the number of movies and TV shows
+'''sql
 SELECT type, COUNT(*)
 FROM NETFLIX
 group by type;
+'''
 
 
 ### 2. Find the most common rating for movies and TV shows
